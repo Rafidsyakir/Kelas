@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #papan
+        {
+            width: 500px;
+            height: 500px;
+            background-color: yellow;
+        }
+        .baris
+        {
+            width: 300px;
+            height: 100px;
+        }
+        .baris-1
+        {
+            background-color: red;
+            position: absolute;
+        }
+        .baris-2
+        {
+            background-color: green;
+            position: absolute;
+        }
+        .baris-3
+        {
+            background-color: aqua;
+            position: absolute;
+        }
+        .col-1-1, 
+        .col-1-3, 
+        .col-2-2
+        {
+            background-color: black;
+        }
+        .col-1-1
+        {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        .col-1-3
+        {
+            position: absolute;
+            left: 100px;
+
+        }
+    </style>
+</head>
+<body>
+    <h2>Papan Catur</h2>
+    <div id="papan">
+        <div class="baris-1 baris">
+            <div class="col-1-1"></div>
+            <div class="col-1-2"></div>
+            <div class="col-1-3"></div>
+        </div>
+        <div class="baris-2 baris">
+            <div class="col-2-1"></div>
+            <div class="col-2-2"></div>
+            <div class="col-2-3"></div>
+        </div>
+        <div class="baris-3 baris">
+            <div class="col-3-1"></div>
+            <div class="col-3-2"></div>
+            <div class="col-3-3"></div>
+        </div>
+    </div>
+</body>
+</html>
